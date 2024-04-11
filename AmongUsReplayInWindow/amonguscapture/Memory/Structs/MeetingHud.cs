@@ -14,7 +14,7 @@ namespace AmongUsCapture
         public bool set(IntPtr _objectPtr, ProcessMemory MemInstance, GameOffsets CurrentOffsets)
         {
             VoteAreaOffsets offsets = CurrentOffsets.VoteAreaOffsets;
-            byte[] byteArray = ProcessMemory.getInstance().ReadByteArray(_objectPtr, 0x56);
+            byte[] byteArray = ProcessMemory.getInstance().ReadByteArray(_objectPtr, offsets.votedFor + 1);
             if (byteArray != null)
             {
                 Id_ = (byte)byteArray[offsets._Id];
