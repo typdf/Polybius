@@ -1,4 +1,4 @@
-# AmongUsReplayInWindow
+# AmongUsReplayInWindow -Polybius
 ![license MIT](https://img.shields.io/badge/license-MIT-green)
 ![Downloads num](https://img.shields.io/github/downloads/sawa90/AmongUsReplayInWindow/total)  
 ![screenshot](https://github.com/sawa90/AmongUsReplayInWindow/blob/images/scrnshot3.png)
